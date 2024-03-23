@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    margin-left: 500px;
+    width: 540px;
+    height: 650px;
+    border-style: solid;
+    border-width: 70px;
+    border-color: rgb(181, 58, 58);
+    border-radius: 30px;
+}
+
+button {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+
+}
+
+.container *:hover {
+    background-color: black;
+}
